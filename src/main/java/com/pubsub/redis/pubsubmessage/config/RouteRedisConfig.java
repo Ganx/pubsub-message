@@ -2,7 +2,6 @@ package com.pubsub.redis.pubsubmessage.config;
 
 import com.pubsub.redis.pubsubmessage.constant.RouteEnum;
 import com.pubsub.redis.pubsubmessage.receiver.RedisRouteReceiver;
-import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
@@ -13,12 +12,11 @@ import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.stereotype.Component;
 
 /**
- * @author:
+ * @author: 陈哲
  * @Version: 0.0.1V
  * @Date: 2018/5/9
  * @Description: 类描述
  **/
-@Data
 @Slf4j
 @Component
 public class RouteRedisConfig {
