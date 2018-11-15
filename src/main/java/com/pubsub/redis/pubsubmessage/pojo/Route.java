@@ -3,7 +3,7 @@ package com.pubsub.redis.pubsubmessage.pojo;
 import lombok.Data;
 
 /**
- * @Author: 胡成
+ * @Author: 陈哲
  * @Version: 0.0.1V
  * @Date: 2018/10/11
  * @Description: 网关bean
