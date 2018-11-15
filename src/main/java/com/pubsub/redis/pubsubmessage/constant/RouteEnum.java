@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * @Author: 胡成
+ * @Author: 陈哲
  * @Version: 0.0.1V
  * @Date: 2018/10/15
  * @Description: 网关枚举类
