@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created with IntelliJ IDEA.
- * User: 胡超云
+ * User: 
  * CreateDate： 2017-05-15 09:36
  * description: redis缓存工具类，作为通用工具类，不得随意变动已存在通用方法
  * 已经封装常用数据类型转换，请不要私自转换数据类型
@@ -27,7 +27,7 @@ public class RedisTool {
     private final static int expireTime = 60 * 30;
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:36
      * description: 刷新缓存时间
      */
@@ -38,7 +38,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:36
      * description: 获取字符串
      */
@@ -48,7 +48,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:37
      * description: 获取Double类型
      */
@@ -58,7 +58,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:37
      * description: 获取double类型
      */
@@ -68,7 +68,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:39
      * description: 获取Integer数据类型
      */
@@ -78,7 +78,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:39
      * description: 获取Int
      */
@@ -88,7 +88,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:41
      * description: 获取BigInteger
      */
@@ -98,7 +98,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:41
      * description: Float
      */
@@ -108,7 +108,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:41
      * description: FloatValue
      */
@@ -118,7 +118,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:42
      * description: Date
      */
@@ -128,7 +128,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:42
      * description: sqlDate
      */
@@ -138,7 +138,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:42
      * description: timeStamp 时间戳
      */
@@ -148,7 +148,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:43
      * description: Boolean
      */
@@ -158,7 +158,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:43
      * description: BooleanValue
      */
@@ -168,7 +168,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:44
      * description: Long(
      */
@@ -178,7 +178,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:44
      * description: LongValue
      */
@@ -188,7 +188,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:44
      * description: Short
      */
@@ -198,7 +198,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 11:44
      * description: ShortValue
      */
@@ -208,7 +208,7 @@ public class RedisTool {
     }
 
     /*
-    * User: 胡超云
+    * User: 
     * CreateDate: 2017/5/17 13:07
     * description: 返回集合
     */
@@ -218,7 +218,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 13:06
      * description: 返回实体对象
      */
@@ -228,7 +228,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 13:06
      * description: 返回jsonobject
      */
@@ -304,7 +304,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:30
      * description: 写入缓存->转json字符串,无过期时间，慎用此方法
      */
@@ -313,7 +313,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:30
      * description: 写入缓存->转json字符串,默认30分钟过期
      */
@@ -322,7 +322,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:30
      * description: 写入缓存->转json字符串,无过期时间，慎用此方法
      */
@@ -331,7 +331,7 @@ public class RedisTool {
     }
 
     /*
-    * User: 胡超云
+    * User: 
     * CreateDate: 2017/5/17 18:12
     * description: 更新key对象field的值，无过期时间，如无特殊需求，慎用此方法
     */
@@ -342,7 +342,7 @@ public class RedisTool {
     }
 
     /*
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:12
      * description: 更新key对象field的值,默认30分钟过期
      */
@@ -353,7 +353,7 @@ public class RedisTool {
     }
 
     /*
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:12
      * description: 更新key对象field的值,自定义过期时间，如无特殊需求，慎用此方法
      */
@@ -364,7 +364,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:23
      * description: 递减
      */
@@ -373,7 +373,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:23
      * description: 递减
      */
@@ -382,7 +382,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:23
      * description: 递增
      */
@@ -391,7 +391,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:23
      * description: 递增
      */
@@ -400,7 +400,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:23
      * description: 递减
      */
@@ -409,7 +409,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 18:23
      * description: 递增
      */
@@ -418,7 +418,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:30
      * description: 写入缓存,无过期时间，慎用此方法
      */
@@ -427,7 +427,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:23
      * description: 默认30分钟过期，如无特殊需求，请调用此常规方法设置缓存
      */
@@ -459,7 +459,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:20
      * description: 获取返回list集合,所有
      */
@@ -468,7 +468,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:20
      * description: 获取返回list集合,查询集合范围从start开始到end结束，如果查询所有则0, -1
      */
@@ -478,7 +478,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:20
      * description: 索引获取集合
      */
@@ -488,7 +488,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 16:20
      * description: 删除集合元素
      */
@@ -498,7 +498,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 15:58
      * description: 写入list 集合缓存，无过期时间，请慎用此方法
      */
@@ -507,7 +507,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 15:58
      * description: 写入list 集合缓存(30分钟过期)，如无特殊需求，请调用此方法
      */
@@ -516,7 +516,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 15:58
      * description: 写入list 集合缓存, 有过期时间，请慎用此方法
      */
@@ -531,7 +531,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 20:36
      * description: 从列表右侧取出第一个元素，并且移除
      */
@@ -541,7 +541,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 20:36
      * description: 从列表左侧取出第一个元素，并且移除
      */
@@ -551,7 +551,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 15:58
      * description: 写入list 集合缓存，无过期时间，请慎用此方法
      */
@@ -560,7 +560,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 15:58
      * description: 写入list 集合缓存(30分钟过期)，如无特殊需求，请调用此方法
      */
@@ -569,7 +569,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 15:58
      * description: 写入list 集合缓存, 有过期时间，请慎用此方法
      */
@@ -584,7 +584,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 汤滨
+     * User: 
      * CreateDate: 2018/11/2 14:04
      * description: 根据索引更新list中value
      */
@@ -593,7 +593,7 @@ public class RedisTool {
         boundListOps.set(index, o);
     }
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:01
      * description: 获取map缓存数据类型
      */
@@ -603,7 +603,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:01
      * description: 写入map缓存类型，无过期时间，请慎用此方法
      */
@@ -612,7 +612,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:01
      * description: 写入map缓存类型，无过期时间，请慎用此方法
      */
@@ -621,7 +621,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:01
      * description: 写入map缓存类型，自定义过期时间，如无特殊需求，请慎用
      */
@@ -640,7 +640,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:02
      * description: 写入map缓存类型,无过期时间，如无特殊需求，不建议调用此方法
      */
@@ -649,7 +649,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:02
      * description: 写入map缓存类型,默认过期时间30分钟
      */
@@ -658,7 +658,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:02
      * description: 写入map缓存类型，自定义过期时间，如无特殊需求，不建议调用此方法
      */
@@ -681,7 +681,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:02
      * description: 写入map缓存类型,自定义缓存时间，如无特殊需求，不建议调用此方法
      */
@@ -690,7 +690,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:02
      * description: 写入map缓存类型,自定义缓存时间，如无特殊需求，不建议调用此方法
      */
@@ -699,7 +699,7 @@ public class RedisTool {
     }
 
     /**
-     * User: 胡超云
+     * User: 
      * CreateDate: 2017/5/17 14:02
      * description: 写入map缓存类型,自定义缓存时间，如无特殊需求，不建议调用此方法
      */
@@ -814,7 +814,7 @@ public class RedisTool {
      * @param redisTemplate
      * @param key           redis key
      * @param item          key
-     * @Author: 胡成
+     * @Author: 
      * @Date: 2018/8/7 14:54
      * @Description: 从hash表中获取数据
      **/
@@ -827,7 +827,7 @@ public class RedisTool {
      * @param key           redis key
      * @param item          key
      * @param value         value
-     * @Author: 胡成
+     * @Author: 
      * @Date: 2018/8/7 14:48
      * @Description: 向一张hash表中放入数据, 如果不存在将创建
      **/
@@ -838,7 +838,7 @@ public class RedisTool {
     /**
      * @param redisTemplate
      * @param key           redis key
-     * @Author: 胡成
+     * @Author: 
      * @Date: 2018/8/7 14:48
      * @Description: 获取hash表中的所有数据
      **/
@@ -850,7 +850,7 @@ public class RedisTool {
      * @param redisTemplate
      * @param key
      * @param item
-     * @Author: 胡成
+     * @Author: 
      * @Date: 2018/8/7 15:21
      * @Description: 删除hash表中的数据
      **/
